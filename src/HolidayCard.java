@@ -57,7 +57,7 @@ Tortoise.setPenColor(Colors.Browns.BlanchedAlmond);
 Tortoise.move(treeWidth/4);
 	}
 	
-	void drawStar() {
+	void drawStar1() {
 		Tortoise.setSpeed(10);
 		Tortoise.penDown();
 		Tortoise.setPenColor(Colors.Reds.MediumVioletRed);
@@ -107,7 +107,7 @@ Tortoise.move(treeWidth/4);
 	}
 
 	void drawTree() {
-		drawStar();
+		drawStar1();
 		drawTreeBody();
 		drawTreeTrunk();
 		treeWidth = 15;
